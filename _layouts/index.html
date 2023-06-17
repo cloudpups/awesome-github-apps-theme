@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section id="app-block">    
+    {% if site.data.apps %}
+        {% assign sortedApp = site.data.apps.apps | sort:"name" %}
+        {% for app in sortedApp %}
+            {% include template-app.html 
+                name=app.name
+                icon_url=app.icon_url 
+                short_description=app.short_description                
+                description=app.description
+                install_url=app.install_url
+                admin_url=app.admin_url
+                repo_url=app.repo_url %}
+        {% endfor %}
+    {% endif %}    
+</section>

@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>        
+    <head>
+        {% include head.html %}
+    </head>    
+    <body>                                 
+        <header>
+            {% include site-header.html %}
+        </header>        
+        <main>
+            {{ content }}
+        </main>
+        <footer>
+            {% include site-footer.html %}
+        </footer>   
+        {% include scripts.html %}
+        <script type="text/javascript" src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
+    </body>       
+</html>

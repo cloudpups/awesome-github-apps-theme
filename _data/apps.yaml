@@ -1,0 +1,25 @@
+apps:
+- name: Safe Settings
+  icon_url: https://example.com
+  short_description: Some short description
+  description: |
+    Some long description
+  install_url: https://example.com
+  admin_url: https://example.com
+  repo_url: https://example.com
+- name: Safe Settings 2
+  icon_url: https://example.com
+  short_description: Some short description
+  description: |
+    Some long description
+  install_url: https://example.com
+  admin_url: https://example.com
+  repo_url: https://example.com
+- name: Safe Settings 3
+  icon_url: https://example.com
+  short_description: Some short description
+  description: |
+    Some long description
+  install_url: https://example.com
+  admin_url: https://example.com
+  repo_url: https://example.com
